@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta charset="UTF-8">
+<title> My HTML </title>
+<script>
+	function changeBackground(){
+		let color = document.body.style.backgroundColor;
+		if (color === "palegreen"){
+			color="coral";
+		} else {
+			color="palegreen";
+		}
+		document.body.style.backgroundColor=color;
+	}
+</script>
+</head>
+<body style="background-color:cadetblue;">
+<p> Привет! Это мой первый сайт на курсе от Скил Фактори!</p>
+<button onclick="changeBackground()"
+	style="width:200px; height:50px;background-color: deepskyblue;front-size:20px;">
+	Нажми Меня!
+</button>
+<h1 style="color:darkslategray;"> А вот тут будет кот! </h1>
+<img src= "https://placepic.ru/wp-content/uploads/2018/12/12609171359007667.jpg">
+</body>
+</html>
